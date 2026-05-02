@@ -32,8 +32,8 @@ redirect_from:
       </div>
     </div>
 
-    <figure class="home-intro__media home-intro__media--mascot">
-      <img src="{{ '/images/hash-brown-cat.jpg' | relative_url }}" alt="Hash brown cat mascot">
+    <figure class="home-intro__media home-intro__media--portrait">
+      <img src="{{ '/images/chen-yanhui.png' | relative_url }}" alt="Portrait of Chen Yanhui">
     </figure>
   </section>
 

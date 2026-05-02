@@ -171,16 +171,16 @@ h1 {
   width: min(100%, 430px);
 }
 
-.mascot {
+.hero-portrait {
   margin: 0;
 }
 
-.mascot img {
+.hero-portrait img {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  object-position: center;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 8px;
