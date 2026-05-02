@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Chen Yanhui"
-excerpt: "Undergraduate student of Industrial Software at Guangdong University of Technology."
+excerpt: "Visual understanding, 3D representation, and vision-language research."
 layout: splash
 author_profile: false
 redirect_from:
@@ -12,14 +12,18 @@ redirect_from:
 <div class="home-page">
   <section class="home-intro" aria-labelledby="home-title">
     <div class="home-intro__copy">
-      <p class="home-kicker">Industrial Software / Engineering / Research</p>
+      <p class="home-kicker">Visual Understanding / 3D Representation / Vision-Language</p>
       <h1 id="home-title">Chen Yanhui</h1>
-      <p class="home-lead">Undergraduate student of Industrial Software at Guangdong University of Technology, building a focused record of projects, research notes, and technical work.</p>
+      <p class="home-lead">Undergraduate student at Guangdong University of Technology, focused on visual understanding, 3D representation, open-vocabulary perception, and language-driven 3D editing.</p>
 
       <div class="home-actions" aria-label="Primary links">
-        <a class="home-button home-button--primary" href="#work">
-          <span>View work</span>
+        <a class="home-button home-button--primary" href="#papers">
+          <span>View papers</span>
           <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a class="home-button" href="https://scholar.google.com.hk/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVvOkdgMF1E1-0QyA5H_TGkZSmVeD6EAHWXE0dNx9DercP-H6gxtF_qIluVieYCEAlzrX0aQL7FmEekpgNA3S7TwUxsaT30PKgyQI3YiYV7wxZLw0lhOitsuHOrQnRE&user=vQjkDcgAAAAJ">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+          <span>Scholar</span>
         </a>
         <a class="home-button" href="https://github.com/cclyr">
           <i class="fab fa-github" aria-hidden="true"></i>
@@ -28,89 +32,80 @@ redirect_from:
       </div>
     </div>
 
-    <figure class="home-intro__media home-intro__media--portrait">
-      <img src="{{ '/images/chen-yanhui.png' | relative_url }}" alt="Portrait of Chen Yanhui">
+    <figure class="home-intro__media home-intro__media--mascot">
+      <img src="{{ '/images/hash-brown-cat.jpg' | relative_url }}" alt="Hash brown cat mascot">
     </figure>
   </section>
 
-  <section class="home-section home-section--split" id="focus" aria-labelledby="focus-title">
+  <section class="home-section home-section--split" id="research" aria-labelledby="research-title">
     <div>
-      <p class="home-eyebrow">Focus</p>
-      <h2 id="focus-title">Engineering notes, software projects, and reproducible technical work.</h2>
+      <p class="home-eyebrow">Research</p>
+      <h2 id="research-title">Computer vision research across visual understanding and 3D representation.</h2>
     </div>
 
     <div class="home-focus-grid">
       <article class="home-card">
         <i class="fas fa-code-branch" aria-hidden="true"></i>
-        <h3>Industrial Software</h3>
-        <p>Systems-oriented work around software tools, engineering workflows, and implementation details.</p>
+        <h3>Visual Understanding</h3>
+        <p>Open-vocabulary perception, semantic segmentation, and robust visual-language inference.</p>
       </article>
       <article class="home-card">
         <i class="fas fa-layer-group" aria-hidden="true"></i>
-        <h3>Applied Engineering</h3>
-        <p>Practical builds and experiments with attention to clarity, maintainability, and measurable behavior.</p>
+        <h3>3D Representation</h3>
+        <p>Language-driven 3D Gaussian Splatting editing and multi-view semantic correspondence.</p>
       </article>
       <article class="home-card">
         <i class="fas fa-pen-nib" aria-hidden="true"></i>
-        <h3>Technical Writing</h3>
-        <p>Concise notes that connect assumptions, methods, results, and the decisions behind them.</p>
+        <h3>Test-Time Adaptation</h3>
+        <p>Reliability-aware adaptation for vision-language models under modality-specific shift.</p>
       </article>
     </div>
   </section>
 
-  <section class="home-section" id="work" aria-labelledby="work-title">
+  <section class="home-section" id="papers" aria-labelledby="papers-title">
     <div class="home-section__header">
-      <p class="home-eyebrow">Selected Work</p>
-      <h2 id="work-title">Start here</h2>
+      <p class="home-eyebrow">Papers</p>
+      <h2 id="papers-title">Recent arXiv papers</h2>
     </div>
 
     <div class="home-link-grid">
-      <a class="home-link-card" href="{{ '/portfolio/' | relative_url }}">
-        <span class="home-link-card__label">Projects</span>
-        <strong>Project archive</strong>
-        <span>Browse selected builds, prototypes, and implementation writeups.</span>
+      <a class="home-link-card" href="https://arxiv.org/abs/2604.19648">
+        <span class="home-link-card__label">cs.CV / cs.AI</span>
+        <strong>CoCo-SAM3</strong>
+        <span>Harnessing Concept Conflict in Open-Vocabulary Semantic Segmentation.</span>
       </a>
-      <a class="home-link-card" href="{{ '/publications/' | relative_url }}">
-        <span class="home-link-card__label">Research</span>
-        <strong>Publications</strong>
-        <span>Collect papers, preprints, and research outputs in one place.</span>
+      <a class="home-link-card" href="https://arxiv.org/abs/2604.19571">
+        <span class="home-link-card__label">cs.CV</span>
+        <strong>TransSplat</strong>
+        <span>Unbalanced Semantic Transport for Language-Driven 3DGS Editing.</span>
       </a>
-      <a class="home-link-card" href="{{ '/cv/' | relative_url }}">
-        <span class="home-link-card__label">Profile</span>
-        <strong>CV</strong>
-        <span>Keep education, engineering, and project history easy to scan.</span>
+      <a class="home-link-card" href="https://arxiv.org/abs/2604.24602">
+        <span class="home-link-card__label">cs.CV</span>
+        <strong>MG-MTTA</strong>
+        <span>Majorization-Guided Test-Time Adaptation for Vision-Language Models.</span>
       </a>
     </div>
   </section>
 
-  <section class="home-section home-section--timeline" id="notes" aria-labelledby="notes-title">
+  <section class="home-section home-section--timeline" id="links" aria-labelledby="links-title">
     <div class="home-section__header">
-      <p class="home-eyebrow">Notes</p>
-      <h2 id="notes-title">Recent direction</h2>
+      <p class="home-eyebrow">Links</p>
+      <h2 id="links-title">Profiles and social links</h2>
     </div>
 
     <ol class="home-timeline">
       <li>
-        <time datetime="2026-05">May 2026</time>
-        <span>Homepage refreshed with a focused structure for projects, publications, notes, and GitHub links.</span>
+        <time>Scholar</time>
+        <span><a href="https://scholar.google.com.hk/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVvOkdgMF1E1-0QyA5H_TGkZSmVeD6EAHWXE0dNx9DercP-H6gxtF_qIluVieYCEAlzrX0aQL7FmEekpgNA3S7TwUxsaT30PKgyQI3YiYV7wxZLw0lhOitsuHOrQnRE&user=vQjkDcgAAAAJ">Google Scholar</a></span>
       </li>
       <li>
-        <time datetime="2026">2026</time>
-        <span>Content sections are ready for detailed project pages, papers, datasets, and experiments.</span>
+        <time>GitHub</time>
+        <span><a href="https://github.com/cclyr">github.com/cclyr</a></span>
+      </li>
+      <li>
+        <time>Social</time>
+        <span><a href="https://www.xiaohongshu.com/user/profile/5e3959f700000000010030ee">Xiaohongshu</a></span>
       </li>
     </ol>
-  </section>
-
-  <section class="home-section home-contact" id="contact" aria-labelledby="contact-title">
-    <div>
-      <p class="home-eyebrow">Contact</p>
-      <h2 id="contact-title">Find me on GitHub.</h2>
-      <p>For code, issues, and public work, the fastest route is the GitHub profile linked below.</p>
-    </div>
-
-    <a class="home-button home-button--primary" href="https://github.com/cclyr">
-      <i class="fab fa-github" aria-hidden="true"></i>
-      <span>@cclyr</span>
-    </a>
   </section>
 </div>

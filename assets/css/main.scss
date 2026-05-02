@@ -182,6 +182,17 @@
   background: #ffffff;
 }
 
+.home-intro__media--mascot {
+  justify-self: center;
+  width: min(100%, 430px);
+}
+
+.home-intro__media--mascot img {
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: #ffffff;
+}
+
 .home-section {
   margin-top: 2rem;
   padding: 2.25rem;

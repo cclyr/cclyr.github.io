@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Chen Yanhui"
 title_separator          : "-"
 name                     : &name "Chen Yanhui"
-description              : &description "Undergraduate student of Industrial Software at Guangdong University of Technology."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Visual understanding, 3D representation, and vision-language research."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cclyr.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "chen-yanhui.png"
   name             : "Chen Yanhui"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate student of Industrial Software."
+  bio              : "Visual understanding and 3D representation."
   location         :
   employer         : "Guangdong University of Technology"
   uri              : # URL
@@ -35,7 +35,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVvOkdgMF1E1-0QyA5H_TGkZSmVeD6EAHWXE0dNx9DercP-H6gxtF_qIluVieYCEAlzrX0aQL7FmEekpgNA3S7TwUxsaT30PKgyQI3YiYV7wxZLw0lhOitsuHOrQnRE&user=vQjkDcgAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            :
