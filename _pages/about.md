@@ -85,31 +85,6 @@ redirect_from:
         <strong>Majorization Guided Test Time Adaptation for Vision Language Models under Modality Specific Shift</strong>
         <span>Lixian Chen, Mingxuan Huang, Yanhui Chen, Junyi Lin, Yang Shi.</span>
       </a>
-      <article class="home-link-card">
-        <span class="home-link-card__label">Engineering Applications of Artificial Intelligence (Under Review)</span>
-        <strong>MP-SAM2: A Multi-Prompt Transfer Learning Framework for ECC Microcrack Segmentation in Images and Videos</strong>
-        <span>Yanhui Chen, Jingchao Wang, et al.</span>
-      </article>
-      <article class="home-link-card">
-        <span class="home-link-card__label">ACM MM 2026 (Under Review)</span>
-        <strong>Bregman Robust Distillation for Stable Local Robust Behavior Transfer</strong>
-        <span>Junyi Lin, Jingchao Wang, Yanhui Chen, Yang Shi.</span>
-      </article>
-      <article class="home-link-card">
-        <span class="home-link-card__label">ACM MM 2026 (Under Review)</span>
-        <strong>Diffusion Image Editing via Asynchronous Token Decoding</strong>
-        <span>Yang Shi, Liangsi Lu, Minzhe Guo, Yifeng Xie, Yanhui Chen, Jingchao Wang, Xuhang Chen.</span>
-      </article>
-      <article class="home-link-card">
-        <span class="home-link-card__label">KDD 2026 (Under Review)</span>
-        <strong>Over-squashing as Transport Congestion: A Sandpile Dynamics Perspective</strong>
-        <span>Yang Shi, Lixian Chen, Jingchao Wang, Minzhe Guo, Mingxuan Huang, Yanhui Chen, Yifeng Xie, Xuhang Chen, Liangsi Lu.</span>
-      </article>
-      <article class="home-link-card">
-        <span class="home-link-card__label">Chinese Core Journal</span>
-        <strong>基于深度重构网络与多维特征融合的无监督结构损伤识别方法</strong>
-        <span>Second author.</span>
-      </article>
     </div>
   </section>
 
